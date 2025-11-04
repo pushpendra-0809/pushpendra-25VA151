@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body html,*{
+            margin: 0px; padding: 0px;
+            box-sizing: border-box;
+        }
+        #bigbox{
+            height: 200px;
+            width: 400px;
+            border: 2px solid black;
+            background-color: rgb(252, 209, 216);
+            margin: 20px;
+            padding: 20px;
+        }
+        #box{
+            width: 300px;
+            height: 250px;
+            border: 5px solid darkblue;
+            background-color: aquamarine;
+            margin: 5px 10px 40px 20px;
+            padding: 20px 10px;
+            border-bottom: 5px solid black;
+        }
+        .dabba{
+            height: 340px;
+            width: 940px;
+            background-color: aquamarine;
+            border: 0px;
+            display: flex;
+            margin: 15px; padding: 20px;
+        }
+        #dabba1{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+        }
+        #dabba2{
+            width: 300px;
+            height: 300px;
+            background-color: blueviolet;
+            margin: auto 20px;
+        }
+        #dabba3{
+            width: 300px;
+            height: 300px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div id="bigbox" >
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore vel natus, nostrum laborum officia nam aliquid dignissimos, architecto voluptate praesentium non eum. Iusto adipisci odio sed culpa eum, cum vitae laudantium eligendi eveniet aspernatur fugiat maxime ut accusantium nam perspiciatis alias incidunt quae! Ratione distinctio, perspiciatis eius quaerat aperiam deleniti?
+        </p>
+    </div>
+    <div id="box">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae non, quisquam dignissimos pariatur praesentium quod minus quas assumenda, perferendis soluta aperiam? Odio quam ex atque, quos totam, pariatur corporis molestias vel nisi vitae alias officiis non suscipit quisquam placeat at sunt nesciunt aliquid voluptate iste! Tempora incidunt repellat harum laboriosam.
+        </p>
+    </div>
+    <div class = "dabba">
+          <div id="dabba1"></div>
+          <div id = "dabba2"></div>
+          <div id="dabba3"></div>
+    </div>
+    
+</body>
+</html>
