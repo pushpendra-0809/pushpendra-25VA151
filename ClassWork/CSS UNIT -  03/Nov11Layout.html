@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        main{
+            width: 900px;
+            height: 800px;
+            background-color: beige;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            text-align: center;
+            align-content: last baseline;
+        }
+        #logo,nav,header,section,footer{
+            background-color: #999;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            color: brown;
+        }
+        #logo{
+            height: 100px;
+        }
+        #nav{
+            height: 80px;
+        }
+        #header{
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header><h2>Logo</h2></header>
+        <nav><h2>Navigation</h2></nav>
+        <section>
+            <div id="left">
+                <h2>Left</h2>
+            </div>
+            <div id="right">
+                <h2>Right</h2>
+            </div>
+            <div id="footer">
+                <h2>footer</h2>
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>
