@@ -1,0 +1,43 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 243, 243);
+    }
+#heading{
+    background-color: red;
+    text-align: center;
+    font-family: 'Avengeance'; /* Name you give to the font */
+  src: url('avengeance.ttf') format('truetype');
+  font-size: xx-large;
+    color: white;
+}
+.product{
+    margin: 12px;
+    padding: 12px;
+    height: 700px;
+    width: 670px;
+    background-color: white;
+    margin: auto;
+}
+#pimage{
+    height: 400px;
+    width: 650px;
+    background-color: rgb(240, 236, 236);
+    padding: 10px;
+    border-radius: 6px;
+}
+img{
+object-fit: cover;
+height: 100%;
+width: 100%;
+}
+#button{
+    text-align: center;
+    margin: auto;
+    height: 60px;
+    width: 250px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+
+}
