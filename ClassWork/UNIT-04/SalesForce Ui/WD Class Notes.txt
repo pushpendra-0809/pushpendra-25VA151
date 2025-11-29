@@ -1,0 +1,75 @@
+html elements are defined in pair
+open tag and close tag
+
+tags - set of blocks
+the titles represent the title of document and name
+
+In HTML, (Hyper Text Markup Language)
+Semantic Tags define the meaning of the content they contain, while non - semantic tags ony hold content 
+and don't indicate its role on the page.
+Semantic tags are both human and machine readable, and they can help users and machines understand the 
+context and importance of the content .
+Non- semantic tags, on the other hand, are used for studying purposes.
+
+HTML ATTRIBUTES
+Attributes provide additional information about an elements.
+Attributes are also specified for the tags.
+
+html ke andr body hogi -> ek trh se isko hi boiler plate keh do
+tags ke example --> br, headings (h1, etc.), sb kuch tag hai (opening tag and closing tag)
+jo content andr likha hai and jo tag hai iss sbko element kehte hai 
+there are 6 heaing tags and h1 is the largest one while h is the smallest one.
+<p> --> para tag ke andr jo bhi jis bhi line mein likho sb kuch ek hi line mein aayga, until and unless 
+        voh dusra para na ho
+Lorem --> yeh ek emmet abriviation hai..mane keywords jaise and yeh loren ke aage just jitne number daaloge 
+          utne hi number para ke andr aa jaynge (Sample Text)
+br --> Break Lines, next Line pr le jayga, Self Closing hai yeh 
+img ko kehte hai tag and src ko kehte hai Attributes, aur jo kuch bhi uske andr aayga sb same hi kaha jayga
+agr koi locally photo lgani hai toh uske liye voh image ko uss folder ke adnr present rhna jarori hai 
+kbhi kbhi ek link kaam nhi karti toh alt ko use karte hai 
+<a> ko kehte hai anchor tag 
+<a href=""></a> --> href ke andr link ko dalte hai jahan jana hota hai, and sign ke baad ek Statement likhte hai 
+<a target = "_blank" href=""></a> --> se hyperlink next tab mein open hogi
+Generally html ka structure kuch aisa hota hai
+   head then body
+title --> webpage ko name deta hai ya kisi cheez ko naam dene ke liye hai 
+"!" --> boiler plate code of html.
+
+<h1 style = ""> ke andr humlog heading ke liye customizations dete hai
+                ise inline css heading kehte hai
+link - bahr kisi file ko html mein lane ke liye link ko use karte hai
+jb bahut saare attributes kisi ek tag mein use karte hai toh usse inline css kehte hai
+jb "*" ko use karte hai kisi tag ki trh, toh uska mtlb hai ki hum sb kuch select kar rhe hai
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    width :100%;
+    height:100% ;
+}
+compuslorily likhna hai ise
+<div> - ek container hai, part hai 
+agr height ke perspective se center lane hote hai toh ...align items koo use karte hai
+side by side mein div ko lane ko flex karna pdta hai
+agr TEXT ko center mein lane hai toh... text-align karte hai
+aur agr div ko align karna hai toh... justify content karna hota hai
+absolute unit - pixel
+margin - it means ki har trf se ek distance maintain ho jata hai 
+padding - jo poora portion hoga uske andr jo text aur jo bhi background color usme ek distance aa jati hai 
+margin - <direction> alg alg trf se margin ki size de skte ho
+hover karne ke liye - sudo selector ka use karte hai
+position absolute - isko karne se ek obj dusre ke hi upar aynge
+                   top 50%
+                   bottom 50%
+                   transform : translate(-50%,-50%)
+z index - jb bhi kisi obj ko front mein lana hai ya back mein le jana hai 
+vh - view point height, jis bhi device pr dekhoge yeh uske hisaab se adjust ho jayga
+position fixed : karne se header ko ek jgh pr fix kar skte hai
+                 isko jb use karte hai toh uske neeche ke elements uski jgh pr aa jate hai 
+                 toh isko support karne ke liye hum ek fake header use karte hai
+remix icon - saare icons isme mil jaynge 
+             git hub se cdn ko pehle html mein copy karlena
+justify content - space around ==> ko use karne se saare elements mein ek evenly space aa jati hai
+
