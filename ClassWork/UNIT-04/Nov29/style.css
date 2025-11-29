@@ -10,15 +10,17 @@ body, html{
     margin-top: 50px;
     padding: 10px;
     display: flex;
+    border-radius: 20px;
 }
 #card1{
-    
+    border-radius: 20px;
     height: 300px;
     width: 310px;
     background-color: white;
     object-fit: cover;
 }
 #card2{
+    border-radius: 20px;
     margin-left: 10px;
     height: 300px;
     width: 310px;
@@ -26,6 +28,7 @@ body, html{
     object-fit: cover;
 }
 #card3{
+    border-radius: 20px;
     margin-left: 10px;
     height: 300px;
     width: 310px;
