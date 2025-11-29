@@ -1,0 +1,67 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+.card{
+    width: 930px;
+    height: 300px;
+    background-color: rgb(223, 221, 221);
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+}
+#card1{
+    
+    height: 300px;
+    width: 310px;
+    background-color: white;
+    object-fit: cover;
+}
+#card2{
+    margin-left: 10px;
+    height: 300px;
+    width: 310px;
+    background-color: white;
+    object-fit: cover;
+}
+#card3{
+    margin-left: 10px;
+    height: 300px;
+    width: 310px;
+    background-color: white;
+    object-fit: cover;
+}
+.image{
+    margin: auto;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name{
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+}
+.details{
+    text-align: center;
+    font-size: x-large;
+    margin: auto;
+}
+.details1{
+    text-align: center;
+    font-size: x-large;
+}
+.details2{
+    text-align: center;
+    font-size: x-large;
+    margin: auto;
+}
