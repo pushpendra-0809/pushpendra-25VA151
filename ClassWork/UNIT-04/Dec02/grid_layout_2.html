@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        main{
+            text-align: center;
+            display: grid;
+            grid-template-rows: 100px 200px 200px 100px;
+            gap: 10px;
+        }
+        #header{
+            background-color: red;
+        }
+        #nav{
+            background-color: violet;
+        }
+        #section{
+            display: grid;
+            grid-template-columns: auto 800px auto;
+            gap: 10px;
+        }
+        .box{
+            background-color: aqua;
+        }
+        #footer{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="header"><h2>Header</h2></div>
+    <div id="nav"><h2>Navigation</h2></div>
+    <div id="section">
+        <div class="box"><h2>Box 1</h2></div>
+        <div class="box"><h2>Box 2</h2></div>
+        <div class="box"><h2>Box 3</h2></div>
+    </div>
+    <div id="footer"><h2>Footer</h2></div>
+    </main>
+    
+</body>
+</html>

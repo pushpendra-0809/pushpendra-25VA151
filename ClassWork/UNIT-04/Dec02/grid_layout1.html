@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        main{
+            text-align: center;
+            display: grid;
+            grid-template-rows: 200px 100px 300px 300px 200px ;
+            gap: 10px;
+        }
+        #header{
+            background-color: aqua;
+        }
+        #nav{
+            background-color: rgb(51, 170, 21);
+        }
+        .section{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+        }
+        .left{
+            display: grid;
+            grid-template-rows: 80px auto;
+            gap: 10px;
+        }
+        #title{
+            background-color: red;
+        }
+        #ct1{
+            background-color: orange;
+        }
+        #navl{
+            background-color: violet;
+        }
+        #section2{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+        }
+        #ct2{
+            background-color: wheat;
+        }
+        #ct3{
+            background-color: brown;
+        }
+        #ct4{
+            background-color: yellow;
+        }
+        #footer{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="header"><h2>Header</h2></div>
+        <div id="nav"><h2>Nav Global</h2></div>
+        <div class="section">
+            <div class="left">
+                <div id="title"><h2>Page Title</h2></div>
+                <div id="ct1"><h2>Content 1</h2></div>
+            </div>
+            <div id="navl"><h2>Nav Local</h2></div>
+        </div>
+        <div id="section2">
+            <div id="ct2"><h2>Content 2</h2></div>
+            <div id="ct3"><h2>Content 3</h2></div>
+            <div id="ct4"><h2>Content 4</h2></div>
+        </div>
+        <div id="footer"><h2>Footer</h2></div>
+    </main>
+    
+</body>
+</html>
